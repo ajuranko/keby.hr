@@ -1,0 +1,182 @@
+/* font family variables */
+:root {
+    --font-family: "Cardo";
+}
+
+/* color variables */
+:root {
+    --primary-color: #ff6426;
+    --secondary-color: #fcf5ee;
+    --tertiary-color: #f0eed4;
+}
+
+/* layout variables */
+:root {
+    --layout-width-0: 576px;
+    --layout-width-1: 679px;
+    --layout-width-2: 768px;
+    --layout-width-3: 992px;
+    --layout-width-4: 1150px;
+    --layout-width-5: 1400px;
+}
+
+/* margin variables */
+:root {
+    --margin-0: 0.2rem;
+    --margin-1: 0.35rem;
+    --margin-2: 0.50rem;
+    --margin-3: 0.75rem;
+    --margin-4: 1rem;
+    --margin-5: 1.25rem;
+    --margin-6: 1.5rem;
+    --margin-7: 1.75rem;
+    --margin-8: 2rem;
+    --margin-9: 2.5rem;
+    --margin-10: 4rem;
+}
+
+/* padding variables */
+:root {
+    --padding-0: 0.2rem;
+    --padding-1: 0.35rem;
+    --padding-2: 0.50rem;
+    --padding-3: 0.75rem;
+    --padding-4: 1rem;
+    --padding-5: 1.25rem;
+    --padding-6: 1.5rem;
+    --padding-7: 1.75rem;
+    --padding-8: 2rem;
+    --padding-9: 2.5rem;
+    --padding-10: 4rem;
+}
+
+/* position variables */
+:root {
+    --position-0: 1;
+    --position-1: 2;
+    --position-2: 3;
+    --position-3: 4;
+    --position-4: 5;
+    --position-5: 6;
+}
+
+/* font size variables */
+:root {
+    --font-size-0: 0.75rem;
+    --font-size-1: 0.875rem;
+    --font-size-2: 1rem;
+    --font-size-3: 1.25rem;
+    --font-size-4: 1.5rem;
+    --font-size-5: 1.75rem;
+    --font-size-6: 2rem;
+    --font-size-7: 2.5rem;
+    --font-size-8: 3rem;
+    --font-size-9: 3.5rem;
+    --font-size-10: 4rem;
+}
+
+/* type-scale variables */
+:root {
+    --h00: 4rem;
+    --h0: 3rem;
+    --h1: 2rem;
+    --h2: 1.5rem;
+    --h3: 1.25rem;
+    --h4: 1rem;
+    --h5: .875rem;
+    --h6: .75rem;
+}
+
+/* line height variables */
+:root {
+    --line-height-1: 1;
+    --line-height-2: 1.125;
+    --line-height-3: 1.25;
+    --line-height-4: 1.5;
+    --line-height-5: 1.75;
+}
+
+/* border variables */
+:root {
+    --border-width-0: 0.5px;
+    --border-width-1: 1px;
+    --border-width-2: 2px;
+
+    --border-radius-0: 5px;
+    --border-radius-1: 6px;
+    --border-radius-2: 8px;
+}
+
+/* color palete variables */
+:root {
+    --color-red: #C9292C;
+    --color-orange: #f77326;
+    --color-yellow: #f7b926;
+    --color-green: #31A24C;
+    --color-blue: #1877F2;
+    --color-indigo: #4B0082;
+    --color-violet: #9400D3;
+    --color-teal: #2ABBA7;
+}
+
+/* fixed color variables */
+:root {
+    --black: #212225;
+    --white: #FFFFFF;
+}
+
+/* gray color variables */
+:root {
+    --gray-0: #f4f5f6;
+    --gray-1: #F2F3F5;
+    --gray-2: #EBEDF0;
+    --gray-3: #DADDE1;
+    --gray-4: #CCD0D5;
+    --gray-5: #BEC3C9;
+    --gray-6: #8D949E;
+    --gray-7: #606770;
+    --gray-8: #444950;
+    --gray-9: #303338;
+    --gray-10: #212225;
+}
+
+/* shadow variables */
+:root {
+    --shadow-1: rgba(0, 0, 0, 0.1);
+    --shadow-2: rgba(0, 0, 0, 0.2);
+    --shadow-3: rgba(0, 0, 0, 0.5);
+    --shadow-4: rgba(0, 0, 0, 0.8);
+    --shadow-inset: rgba(255, 255, 255, 0.5);
+}
+
+/* duration variables */
+:root {
+    --duration-none: 0ms;
+    --duration-fast: 200ms;
+    --duration-medium: 300ms;
+    --duration-slow: 400ms;
+}
+
+/* movement variables */
+:root {
+    --movement-soft: cubic-bezier(.08,.52,.52,1);
+    --movement-strong: cubic-bezier(.12,.8,.32,1);
+}
+
+/* animation variables */
+:root {
+    --animation-enter-exit-in: cubic-bezier(0.14, 1, 0.34, 1);
+    --animation-enter-exit-out: cubic-bezier(0.45, 0.1, 0.2, 1);
+    --animation-swap-shuffle-in: cubic-bezier(0.14, 1, 0.34, 1);
+    --animation-swap-shuffle-out: cubic-bezier(0.45, 0.1, 0.2, 1);
+    --animation-move-in: cubic-bezier(0.17, 0.17, 0, 1);
+    --animation-move-out: cubic-bezier(0.17, 0.17, 0, 1);
+    --animation-expand-collapse-in: cubic-bezier(0.17, 0.17, 0, 1);
+    --animation-expand-collapse-out: cubic-bezier(0.17, 0.17, 0, 1);
+    --animation-passive-move-in: cubic-bezier(0.5, 0, 0.1, 1);
+    --animation-passive-move-out: cubic-bezier(0.5, 0, 0.1, 1);
+    --animation-quick-move-in: cubic-bezier(0.1, 0.9, 0.2, 1);
+    --animation-quick-move-out: cubic-bezier(0.1, 0.9, 0.2, 1);
+    --animation-fade-in: cubic-bezier(0, 0, 1, 1);
+    --animation-fade-out: cubic-bezier(0, 0, 1, 1);
+}

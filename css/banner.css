@@ -1,7 +1,6 @@
 .banner_part {
   height: 750px;
   position: relative;
-  background-image: url(../img/banner_bg.png);
   background-repeat: no-repeat;
   background-size: 41%;
   background-position: top right;
