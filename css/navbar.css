@@ -1,0 +1,12 @@
+.navbar {
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 158, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_common.scss */
+  .navbar {
+    padding-top: 0.35rem !important;
+    padding-bottom: 0.35rem !important;
+  }
+}

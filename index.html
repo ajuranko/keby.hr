@@ -15,13 +15,10 @@
     <link rel="stylesheet" href="css/footer.css">
     <!-- Global CSS -->
     <link rel="stylesheet" href="css/global.css">
-    <!-- Style CSS -->
-    <!-- <link rel="stylesheet" href="css/styles.css"> -->
-    <link rel="stylesheet" href="containers/S0.Navbar/index.css">
 
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Cardo?family=Lora" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cardo|Lora" rel="stylesheet">
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
@@ -34,7 +31,9 @@
             <div class="row align-items-center">
                 <div class="col-lg-12">
                     <nav class="navbar navbar-expand-lg navbar-light">
-                        <a class="navbar-brand" href="index.html"> <img src="img/logo.png" alt="logo"> </a>
+                        <a class="navbar-brand" href="index.html">
+                            <img src="img/logo.png" alt="logo" height="35">
+                        </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
@@ -45,16 +44,16 @@
                             id="navbarSupportedContent">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="index.html">Home</a>
+                                    <a class="nav-link" href="#menu">Menu</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="about.html">About</a>
+                                    <a class="nav-link" href="#contact">Contact</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="food_menu.html">Menu</a>
+                                    <p class="nav-link">|</p>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact</a>
+                                    <a id="primary-button"class="btn btn-primary" href="#offer">Monthly offer</a>
                                 </li>
                             </ul>
                         </div>
@@ -78,7 +77,7 @@
                                 behold it created good saw after she'd Our set living. Signs midst dominion
                                 creepeth morning</p>
                             <div class="banner_btn">
-                                <a href="#menu" class="btn btn-primary">View menu</a>
+                                <a href="#menu" id="primary-button" class="btn btn-primary ">View menu</a>
                                 <a href="https://www.youtube.com/watch?v=pBFQdxA-apI" class="popup-youtube video_popup">
                                     <span><img src="img/icon/play.svg" alt=""></span> Watch our story</a>
                             </div>
@@ -135,24 +134,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-4 d-none d-sm-block d-lg-none">
-                    <div class="single_blog_item">
-                        <div class="single_blog_img">
-                            <img src="img/food_item/food_item_1.png" alt="">
-                        </div>
-                        <div class="single_blog_text">
-                            <h3>Cremy Noodles</h3>
-                            <p>Was brean shed moveth day yielding tree yielding day were female and </p>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
     <!--::exclusive_item_part end::-->
 
     <!-- about part start-->
-    <section class="about_part">
+    <section id="offer" class="about_part">
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-sm-4 col-lg-5 offset-lg-1">
@@ -163,8 +151,7 @@
                 <div class="col-sm-8 col-lg-4">
                     <div class="about_text">
                         <h5>Our History</h5>
-                        <h2>Where The Food’s As Good
-                            As The Root Beer.</h2>
+                        <h2>Where The Food’s As Good As The Root Beer.</h2>
                         <h4>Satisfying people hunger for simple pleasures</h4>
                         <p>May over was. Be signs two. Spirit. Brought said dry own firmament lesser best sixth deep
                             abundantly bearing, him, gathering you
@@ -183,21 +170,6 @@
                     <div class="section_tittle">
                         <p>Popular Menu</p>
                         <h2>Delicious Food Menu</h2>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="nav nav-tabs food_menu_nav" id="myTab" role="tablist">
-                        <a class="active" id="Special-tab" data-toggle="tab" href="#Special" role="tab"
-                            aria-controls="Special" aria-selected="false">Special <img src="img/icon/play.svg"
-                                alt="play"></a>
-                        <a id="Breakfast-tab" data-toggle="tab" href="#Breakfast" role="tab" aria-controls="Breakfast"
-                            aria-selected="false">Breakfast <img src="img/icon/play.svg" alt="play"></a>
-                        <a id="Launch-tab" data-toggle="tab" href="#Launch" role="tab" aria-controls="Launch"
-                            aria-selected="false">Launch <img src="img/icon/play.svg" alt="play"></a>
-                        <a id="Dinner-tab" data-toggle="tab" href="#Dinner" role="tab" aria-controls="Dinner"
-                            aria-selected="false">Dinner <img src="img/icon/play.svg" alt="play"> </a>
-                        <a id="Sneaks-tab" data-toggle="tab" href="#Sneaks" role="tab" aria-controls="Sneaks"
-                            aria-selected="false">Sneaks <img src="img/icon/play.svg" alt="play"></a>
                     </div>
                 </div>
                 <div class="col-lg-12">
@@ -267,7 +239,7 @@
     <!-- food_menu part end-->
 
     <!-- footer part start-->
-    <footer class="footer-area">
+    <footer id="contact" class="footer-area">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 col-6 col-md-4">
@@ -284,7 +256,7 @@
                         <div class="contact_info">
                             <p><span> Address :</span>Hath of it fly signs bear be one blessed after </p>
                             <p><span> Phone :</span> +2 36 265 (8060)</p>
-                            <p><span> Email : </span>info@colorlib.com </p>
+                            <p><span> Email : </span>info@email.com</p>
                         </div>
                     </div>
                 </div>

@@ -1,9 +1,0 @@
-.S0-header {
-    border: 1px solid red;
-}
-
-.S0-navbar {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-}

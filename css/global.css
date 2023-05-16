@@ -1,3 +1,14 @@
+#primary-button {
+    border: 1px solid #ff6426 !important;
+    background-color: #ff6426 !important;
+    padding: 8px 20px;
+}
+
+#primary-button:hover {
+    border: 1px solid #e25d29 !important;
+    background-color: #e25d29 !important;
+}
+
 /* line 71, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_common.scss */
 a {
   text-decoration: none;
@@ -7,7 +18,7 @@ a {
 
 /* line 74, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_common.scss */
 a:hover {
-  color: #ff6426 !important;
+  color: #ff6426;
   text-decoration: none;
   -webkit-transition: 0.5s;
   transition: 0.5s;
