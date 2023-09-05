@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+    border: 1px solid red;
+}
+
+/* Set the size of the div element that contains the map */
+#map {
+    height: 500px; 
+    margin-top: 4rem !important;
+}
