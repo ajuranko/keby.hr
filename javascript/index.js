@@ -3,13 +3,13 @@ const mobileMenuPanel = document.querySelector("#mobile-menu-panel");
 
 //
 const mobileMenuButtonClose = document.querySelector("#mobile-menu-button-close");
-mobileMenuButtonClose.addEventListener("click", (event) => {
+mobileMenuButtonClose.addEventListener("click", () => {
     mobileMenuPanel.classList.add("hidden");
 });
 
 //
 const mobileMenuButtonOpen = document.querySelector("#mobile-menu-button-open");
-mobileMenuButtonOpen.addEventListener("click", (event) => {
+mobileMenuButtonOpen.addEventListener("click", () => {
     mobileMenuPanel.classList.remove("hidden");
 });
 
