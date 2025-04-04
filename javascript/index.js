@@ -21,8 +21,18 @@ mobileMenuLinks.forEach((element) => {
     });
 });
 
+// Initialize AOS (Animate On Scroll) library with default settings
+document.addEventListener('DOMContentLoaded', function () {
+    AOS.init({
+        duration: 800,
+        easing: 'ease-in-out',
+        once: true,
+        mirror: false
+    });
+});
+
 setTimeout(() => {
     //
     const leaflet = document.querySelector(".leaflet-attribution-flag");
-    leaflet.remove()
+    leaflet?.remove();
 }, 1000);
